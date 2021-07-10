@@ -1,5 +1,8 @@
 # SSRS (SQL Server Reporting Service)
-
+# Videos
+ 1. SSRS - 1. Installation Prerequisite - https://youtu.be/bsV1yyv2Qe8
+ 2. SSRS - 2. Installation & Configuration of Sql Server Reporting Service - https://youtu.be/zavwVEYKoNw
+ 
 # Intruduction
 This video series we are going to see different types of SSRS reports along with Installation of SSRS on Windows machine.
 ## Installation of SQL Server Reporting Service
