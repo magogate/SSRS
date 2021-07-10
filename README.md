@@ -12,5 +12,31 @@ This video series we are going to see different types of SSRS reports along with
     - Check your internet connection. Add an additional NIC Card & select "Share IP Adderess of the Host"
     - Download chrome (its not mandatory but convenient)
  5. Once user creation is finished, we can start with actual SSSRS installation
+    - Choose "Install Reporting Services"
+    - Choose a free edition
+    - Accepts license
+    - Install Reporting Serices Only   
+    - Install
     
+###Configuring Report Server
+ 1. Connect to Node\SSRS
+ 2. Service Account -- Specify AD Account (gogates\SQL.PRD.SSRS) which we created earlier & Apply
+ 3. Web Service URL -- Keep default settings & Apply
+ 4. Database --
+    - Click on Change database
+    - Select - Create a new report server database
+    - Authentication Type - Select "Integrated Security (Current User)
+    - Specify SQL Server - GOGATE-NODE-1\DGOGATE
+    - Specify Database Name as Default - ReportServer
+    - Credentials -- Keep it default
+    - Finish
+ 5. Web Portal URL -- Keep default
+ 6. Rest all settings are options and you can skip them
+ 7. Refresh the database, and you should be able to see new entries for ReportServer db
+ 8. Open - "Report Server Configuration Manager"
+ 9. Click on Web Service URL -- http://gogate-node-1/ReportServer
+ 10. It will prompt to specify user id & Password - specify required credentials (gogates\magogate & P@ssword#123)
+ 11. Click on Web Portal URL -- http://gogate-node-1/Reports/
+ 
 
+ 
