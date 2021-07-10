@@ -41,5 +41,7 @@ This video series we are going to see different types of SSRS reports along with
  10. It will prompt to specify user id & Password - specify required credentials **(gogates\magogate & P@ssword#123)**
  11. Click on **Web Portal URL** -- http://gogate-node-1/Reports/
  
+### Download SQL Server Data Tools (SSDT) for Visual Studio
+ 1. In order to create SSRS reports, you need to have a client installed - and you can download that from (https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15#ssdt-for-vs-2017-standalone-installer)
 
  
