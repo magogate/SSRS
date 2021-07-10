@@ -18,7 +18,7 @@ This video series we are going to see different types of SSRS reports along with
     - Install Reporting Serices Only   
     - Install
     
-###Configuring Report Server
+### Configuring Report Server
  1. Connect to Node\SSRS
  2. Service Account -- Specify AD Account (gogates\SQL.PRD.SSRS) which we created earlier & Apply
  3. Web Service URL -- Keep default settings & Apply
