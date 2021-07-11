@@ -43,10 +43,8 @@ This video series we are going to see different types of SSRS reports along with
  
 ### Download SQL Server Data Tools (SSDT) for Visual Studio
  1. In order to create SSRS reports, you need to have a client installed - and you can download that from (https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15#ssdt-for-vs-2017-standalone-installer)
- 2. Or, you can go back to SQL Installation and click on "Add features on existing installation" option. 
-    - Select "Add features on existing instance" option
-    - Select the instance on which you want to install SSDT
-    - 
+ 2. Once installation is finished, you can create a sample report by creating Report Service project using SSDT.
+ 3. You can deploy newly created report manually from http://gogate-node-1/Reports/
  
 
  
