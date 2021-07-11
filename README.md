@@ -46,5 +46,12 @@ This video series we are going to see different types of SSRS reports along with
  2. Once installation is finished, you can create a sample report by creating Report Service project using SSDT.
  3. You can deploy newly created report manually from http://gogate-node-1/Reports/
  
-
+### Creating a dataset for Reporting
+ 1. You can use any data for reporting, but I am going to use HR schema which comes with Oracle DB installation by default for my convenience
+ 2. Once you install any Express Edition of Oracle, you just need to unlock the schema and change the password with below commands
+    - alter user hr account unlock
+    - alter user hr identified by P@ssword#123
+ 3. Or you can use SQL Navigator to perform these activities
+ 4. Once you logs into HR schema, export all table data int csv file
+ 5. Import those .csv files back into our SQL Server HR database
  
