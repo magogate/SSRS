@@ -70,7 +70,7 @@ This video series we are going to see different types of SSRS reports along with
     - Count in database you will get from DataSet - so compare that with parameter count. If it matches then display "All Values" else display individual values.
     - Also, you may need to display these values on individual rows. for that you can use Chr(13) - this works in informatica as well - or Environment.NewLine
     - if you google - "how to add new line in ssrs expression" - you will come across link (https://stackoverflow.com/questions/22097129/line-break-in-ssrs-expression)
-    - You can add <br> or <b> tag - which are HTML tag, but you need to select respective property for that - so SSRS will know to part HTML tags
+    - You can add "br" or "b" tag - which are HTML tag, but you need to select respective property for that - so SSRS will know to part HTML tags
     - 
  
   
