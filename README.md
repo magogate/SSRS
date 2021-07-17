@@ -55,3 +55,22 @@ This video series we are going to see different types of SSRS reports along with
  4. Once you logs into HR schema, export all table data int csv file
  5. Import those .csv files back into our SQL Server HR database
  
+### Adding and Displaying Filters
+ 1. Once you add the filters, its important you display them at start of the report - because if you export the report and share it with others, she/he should know if the report is filtered report or not. 
+ 2. To display filters on SSRS reports, follow below steps
+    - Add an expresssion just below the title and above your data table
+    - Since filters which you are seeing on report are nothing but the parameters you have created. So, basically you are supposed to show those parameter values.
+    - Since value parameters will get displayed on report without any issues
+    - However, multivalue parameters (dropdowns with more than 1 values) - will throw an error. This is because - text box will expect an String, but multivalue parameters are collections / array. This needs to be type casted, so you can either use value(0) or label(0), but that's very ineffeciant way.
+    - Instead, use join function. You can google - "how to convert array to string in ssrs expression" and you will get following URL
+    - https://www.sqlshack.com/using-multi-value-parameters-in-ssrs/
+    - Here, using JOIN function, you can convert Array into String, which can be displayed into SSRS
+    - Also, if you are selecting all values in a drop down, there is no need to display each and every value. You can simple display "All Values Selected". however, how can we determine if all values in drop down are selected?
+    - For that, you need to compare selected count vs count in database.
+    - Count in database you will get from DataSet - so compare that with parameter count. If it matches then display "All Values" else display individual values.
+    - Also, you may need to display these values on individual rows. for that you can use Chr(13) - this works in informatica as well - or Environment.NewLine
+    - if you google - "how to add new line in ssrs expression" - you will come across link (https://stackoverflow.com/questions/22097129/line-break-in-ssrs-expression)
+    - You can add <br> or <b> tag - which are HTML tag, but you need to select respective property for that - so SSRS will know to part HTML tags
+    - 
+ 
+  
