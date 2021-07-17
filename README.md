@@ -70,7 +70,8 @@ This video series we are going to see different types of SSRS reports along with
     - Count in database you will get from DataSet - so compare that with parameter count. If it matches then display "All Values" else display individual values.
     - Also, you may need to display these values on individual rows. for that you can use Chr(13) - this works in informatica as well - or Environment.NewLine
     - if you google - "how to add new line in ssrs expression" - you will come across link (https://stackoverflow.com/questions/22097129/line-break-in-ssrs-expression)
-    - You can add "<br>" or "<b>" tag - which are HTML tag, but you need to select respective property for that - so SSRS will know to part HTML tags
-    - 
+    - You can add "<br>" or "b" tag - which are HTML tag, but you need to select respective property for that - so SSRS will know to part HTML tags
+    - In - order to add HTML content to your text box, you need to right click on PlaceHolder and select properties as "Interpret HTML tags as Styles". Do not right click on TextBox itself.
+    - You can google - "how to add html code in ssrs report" and you will come across link (https://docs.microsoft.com/en-us/sql/reporting-services/report-design/add-html-into-a-report-report-builder-and-ssrs?view=sql-server-ver15)
  
   
