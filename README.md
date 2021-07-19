@@ -75,3 +75,6 @@ This video series we are going to see different types of SSRS reports along with
     - You can google - "how to add html code in ssrs report" and you will come across link (https://docs.microsoft.com/en-us/sql/reporting-services/report-design/add-html-into-a-report-report-builder-and-ssrs?view=sql-server-ver15)
  
   
+### Aggregation
+ 1. ssrs excel tab name
+    (https://stackoverflow.com/questions/24745541/ssrs-changing-tab-name-when-exporting-to-excel)
