@@ -78,3 +78,6 @@ This video series we are going to see different types of SSRS reports along with
 ### Aggregation
  1. ssrs excel tab name
     (https://stackoverflow.com/questions/24745541/ssrs-changing-tab-name-when-exporting-to-excel)
+
+### Creating a Stepped Report
+ 1. https://docs.microsoft.com/en-us/sql/reporting-services/report-design/create-a-stepped-report-report-builder-and-ssrs?view=sql-server-ver15
