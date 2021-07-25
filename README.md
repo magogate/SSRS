@@ -81,3 +81,6 @@ This video series we are going to see different types of SSRS reports along with
 
 ### Creating a Stepped Report
  1. https://docs.microsoft.com/en-us/sql/reporting-services/report-design/create-a-stepped-report-report-builder-and-ssrs?view=sql-server-ver15
+
+### Creating a Matrix Report
+ 1. https://docs.microsoft.com/en-us/sql/reporting-services/report-design/create-a-matrix-report-builder-and-ssrs?view=sql-server-ver15
